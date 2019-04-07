@@ -1,0 +1,308 @@
+
+
+*{
+
+    box-sizing: border-box;
+}
+
+/* HODSAJGISAJGISAJG */
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Comfortaa', cursive;
+    background-color:rgb(183, 212, 179);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+nav {
+	background: #106022;
+	
+    color: #e0d9d9;
+    padding-top:5px;
+    padding: 7px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: solid black 1px;
+    box-shadow: 1px 1px 3px black;
+
+    
+}
+#navContent {
+	
+    padding: 10px;
+    padding-right: 0;
+    margin-right: 0;
+    padding-top:15px;
+    color: #fff;
+}
+#logo{
+    height: 60px;
+    width: 60px;
+    display: block;
+    position: static;
+    background-image: url('../img/logo4ong.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 3px;
+}
+
+.logintext{
+    padding: 4px;
+
+}
+.logintext:focus {
+    outline: green;
+	box-shadow: 0 0 0.3pt 0.4pt #01420F;
+
+}
+/*dugme za login, ispod hover*/
+.loginbutton{
+
+    padding: 5px;
+    background-color: #01420F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    border: #002608 solid 1px;
+    outline: none;
+}
+
+.loginbutton:hover{
+
+    padding: 5px;
+    background-color: #106022;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    border: #002608 solid 1px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+h2{
+
+    padding: 6px;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+form{
+
+    margin: 7px;
+    
+}
+
+#wrapper{
+
+    padding: 50px 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+}
+
+.successmessage {
+    
+    background-color: #01420F;
+    
+    text-align: center;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    border:1px solid black;
+    cursor: default;
+
+}
+
+#registerbutton{
+
+    margin-left: 50px;
+    
+}
+.closebtn{
+
+    background-color: #FFCC00;
+    color: #01420F;
+    border-right: 1px solid black;
+    cursor: pointer;
+    padding: 3px;
+}
+.closebtn:hover{
+
+    background-color: yellow;
+    color: #01420F;
+    border-right: 1px solid black;
+    
+}
+/* shashgsahasaewefcaewfawfa */
+
+#profil{
+
+    
+    
+    position: static;
+    background-color: white;
+    margin: 7px;
+    width: 300px;
+    padding: 6px;
+    border-radius: 3px;
+    box-shadow: 0 0 3px #0b3d17;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 10%;
+    align-self: flex-start;
+
+}
+
+#profil img {
+
+    border-radius: 40%;
+    width: 200px;
+
+}
+
+.imeprofila{
+
+    font-weight: bold;
+    cursor: normal;
+    margin: 3px;
+}
+#stats{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 15px;
+}
+
+.profileinfo{
+
+    margin: 3px;
+}
+.popUp{
+
+    display: none;
+    background-color: #fff;
+    border: 1px solid black;
+    margin: 0 7px 7px 7px;
+    position: relative;
+    border-radius: 3px;
+}
+.popup button{
+
+    padding: 5px;
+    background-color: #01420F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    border: #002608 solid 1px;
+    outline: none;
+    cursor: pointer;
+}
+
+.popup button:hover{
+
+    padding: 5px;
+    background-color: rgb(1, 94, 21);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    border: #002608 solid 1px;
+    outline: none;
+    cursor: pointer;
+}
+#yesbutton{
+    margin-left: 40%;
+}
+
+.editPostButton{
+    padding: 5px;
+    background-color: #01420F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    border: #002608 solid 1px;
+    outline: none;
+
+}
+.editPostButton:hover{
+    padding: 5px;
+    background-color: rgb(3, 100, 24);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    border: #002608 solid 1px;
+    outline: none;
+    cursor: pointer;
+}
+.deletePostButton{
+    padding: 5px;
+    background-color: #01420F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    border: #002608 solid 1px;
+    outline: none;
+    margin: 7px;
+
+}
+.deletePostButton:hover{
+    padding: 5px;
+    background-color: rgb(3, 100, 24);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    border: #002608 solid 1px;
+    outline: none;
+    cursor: pointer;
+}
+#dugmad{
+
+    display: flex;
+}
+#nobutton{
+
+    position: absolute;
+    bottom: 7px;
+    right: 40%;
+}
+
+#wrapper{
+
+    padding: 20px 10%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+#opa {
+    height: 60px;
+    width:60px;
+    border-radius: 40%;
+}
+
+#opa img{
+    height: 60px;
+    width:60px;
+    border-radius: 40%;
+}

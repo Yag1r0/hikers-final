@@ -1,0 +1,160 @@
+/*CSS RESET*/
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*imporing font and applying it to body*/
+:root{
+    --primary:#3E6937;
+    --dark: #5cdb95;
+    --light: #94D9D5;
+    --shadow: 0px 1px 5px rgba(91, 112, 139, 0.8);
+}
+
+
+header{
+
+    width: 100%;
+    height: 30%;
+    background-color: var(--dark);
+    text-align: center;
+    padding: 20px;
+    color: #05386b;
+}
+
+body{
+
+    font-family: 'Cardo', serif;
+    outline: none;
+    font-size: 16px;
+    color: white;
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#main{
+
+    display: flex;
+    flex-direction: column;
+    background-color: hsla(112, 60%, 17%, 0.795);
+    background-color: #05386b;
+    border-radius: 10px;
+    width: 40%;
+    height: auto;
+    margin-left: 30px;
+    padding: 10px;
+    box-shadow: 3px 3px 7px rgb(17, 19, 19);
+
+}
+
+
+.forma{
+
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 20px;
+    
+    
+}
+#indeximage{
+
+    width: 50%;
+    align-self: flex-start;
+}
+#kocka{
+
+    width: 100%;
+    height: 80vh;
+    
+    /* background-image: url("../Img/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+}
+#container1{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 70%;
+    background-image: url("../Img/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+#slika{
+
+    width: 100%;
+}
+
+
+
+   
+
+.inputspace{
+
+    
+    border: 2px solid var(--light);
+    border-radius: 10px;
+    padding: 7px;
+    color: var(--dark);
+    outline: none;
+}
+
+
+.loginbutton{
+
+    background-color: white;
+    margin: 17px;
+    border: 2px solid var(--light);
+    border-radius: 10px;
+    padding: 7px;
+    color: var(--dark);
+    margin-left: 0;
+    width: 30%;
+    font-weight: bold;
+    outline: none;
+}
+footer{
+
+    background-color: #353937;
+    height: auto;
+    width: 100%;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-family: 'Lilita One', cursive;
+    color: #C0CD2F;
+    
+}
+#reghere{
+
+    color: rgb(5, 37, 68);
+}
+#logo{
+    background-image: url("../Img/padawanslogo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 50px;
+    width: 90px;
+    position: static;
+    margin: 7px;
+
+}
+
+h1{
+    font-weight: bold;
+}

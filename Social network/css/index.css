@@ -1,0 +1,189 @@
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Comfortaa', cursive;
+    background-color:rgb(183, 212, 179);
+    background: url(../img/hikerhero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+nav {
+	background: #106022;
+	
+    color: #e0d9d9;
+    padding-top:5px;
+    padding: 7px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: solid black 1px;
+    box-shadow: 1px 1px 3px black;
+
+    
+}
+#navContent {
+	
+    padding: 10px;
+    padding-right: 0;
+    margin-right: 0;
+    padding-top:15px;
+    color: #fff;
+}
+#logo{
+    height: 60px;
+    width: 60px;
+    display: block;
+    position: static;
+    background-image: url('../img/logo4ong.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 3px;
+}
+
+.logintext{
+    padding: 4px;
+
+}
+.logintext:focus {
+    outline: green;
+	box-shadow: 0 0 0.3pt 0.4pt #01420F;
+
+}
+/*dugme za login, ispod hover*/
+.loginbutton{
+
+    padding: 5px;
+    background-color: #01420F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    border: #002608 solid 1px;
+    outline: none;
+}
+
+.loginbutton:hover{
+
+    padding: 5px;
+    background-color: #106022;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    border: #002608 solid 1px;
+    cursor: pointer;
+}
+
+
+
+
+.inputreg{
+
+    border-radius: 5px;
+    border: #002608 solid 1px;
+    padding: 5px;
+    outline: none;
+    margin: 4px;
+}
+.inputreg:focus {
+    outline: none;
+	box-shadow: 0 0 0.3pt 0.4pt #01420F;
+
+}
+
+main{
+
+    /* width: 50%; */
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+#logobig{
+
+    background-image: url("../img/logozahompage1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 400px;
+    height: 400px;
+    margin: 50px;
+    
+}
+
+aside{
+    /* width: 50%; */
+    display: flex;
+    margin: 50px;
+    padding: 10px;
+    justify-content: center;
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.363);
+}
+h2{
+
+    padding: 6px;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+form{
+
+    margin: 7px;
+    
+}
+
+#wrapper{
+
+    padding: 50px 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.successmessage {
+    
+    background-color: #01420F;
+    
+    text-align: center;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    border:1px solid black;
+    cursor: default;
+
+}
+
+#registerbutton{
+
+    margin-left: 50px;
+    
+}
+.closebtn{
+
+    background-color: #FFCC00;
+    color: #01420F;
+    border-right: 1px solid black;
+    cursor: pointer;
+    padding: 3px;
+}
+.closebtn:hover{
+
+    background-color: yellow;
+    color: #01420F;
+    border-right: 1px solid black;
+    
+}
